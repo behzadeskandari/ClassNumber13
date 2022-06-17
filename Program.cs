@@ -123,7 +123,8 @@ namespace ClassNumber13
             
            /// lstname.ForEach(x => Console.WriteLine(x));
 
-
+            ////Soal 2 
+            ///
             Console.WriteLine("Enter a text ");
             
             string ReadedString = Console.ReadLine();
@@ -132,18 +133,8 @@ namespace ClassNumber13
 
             bool IsPalindorme = ReadedString.SequenceEqual(temp2);
 
-
-
-
-            Console.WriteLine(IsPalindorme+ "Is Palindorme");
-            //if (returnedValue)
-            //{
-            //    Console.WriteLine("True");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("false");
-            //}
+            Console.WriteLine(IsPalindorme + " " + "Is Palindorme");
+            
 
 
         }
